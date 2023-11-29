@@ -1,14 +1,3 @@
-.signupbox {
-border-style: solid;
-border-color: grey;
-border-width: 3px;
-border-radius: 10px;
-
-background-color: #eeeee4;
-
-width: 500px;
-height: 800px;
-}
 
 .emailinput {
   background-color: #eeeee4;
