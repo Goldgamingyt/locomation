@@ -4,13 +4,18 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/main.css">
 
-<script src="https://apis.google.com/js/platform.js" async defer></script>
-<meta name="google-signin-client_id" content="250333074649-g7g2dfb8qji9mt4bk2230i33ukhmqe99.googleusercontent.com">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+<meta name="google-signin-client_id" content="250333074649-d0riq95ntdi30352mu10r7p2n1bjf3td.googleusercontent.com">
 
 <script href="js/script.js"></script>
     <title>Locomation</title>
   </head>
   <body>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
     <center>
     <div class="signupbox">
       <h1 class="signuph1">SIGN UP</h1>
@@ -19,6 +24,16 @@
 
       <div class="g-signin2" data-onsuccess="onSignIn"></div>
       <a class="tos" href="TOS.html">terms of service</a>
+
+      <div class="data">
+        <p>name</p>
+        <p id="name" class="alert alert-success"></p>
+        <p>profile picture</p>
+        <img id="image" class="rounded-circle">
+        <p>email</p>
+        <p id="email"></p>
+
+      </div>
     </div>
 </center>
 
